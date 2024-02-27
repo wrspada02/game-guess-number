@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo descubra o número</title>
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+    <main class="content__container">
+        <img src="./img/aula03-ex03.jpg" alt="Imagem com vários números em um solo com o número 4 sendo carregado por uma garra">
+        <section>
+            <form id="form">
+                <h1>Jogo Descubra o Número</h1>
+                <label for="number">
+                    <span>Número:</span>
+                    <input type="text" name="num" id="number">
+                </label>
+                <button type="submit">Apostar</button>
+            </form>
+            <article>
+                <p id="errorsQuantity">Erros: 0</p>
+                <p id="chancesRemaining">Chances: 6</p>
+                <p id="tip">Dica: É um número entre 1 e 100</p>
+            </article>
+        </section>
+    </main>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
